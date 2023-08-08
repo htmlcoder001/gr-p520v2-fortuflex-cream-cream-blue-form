@@ -663,6 +663,11 @@
                     
     
                     <style>
+                        .vk-container-main {
+                            float: none;
+                            max-width: calc(100% - 60px);
+                            margin-left: 60px;
+                        }
                         .vk-container {
                             font-family: sans-serif!important;
                             font-size: 15px;
@@ -839,6 +844,10 @@
                                 font-size: 21px;
                 
                             }
+                            .vk-container-main {
+                                max-width: 100%;
+                                margin-left: 0;
+                            }
                         }
                         @media (max-width: 475px) {
                             .down-menu {
@@ -850,7 +859,7 @@
                         }
                     </style>
     
-                    <div class="vk-container" style="float: none; max-width: calc(100% - 60px); margin-left: 60px;">
+                    <div class="vk-container vk-container-main">
                         <div class="vk-header">
                             <div class="vk-logo"></div>
                             <div class="vk-header-text"><span class="comment-count">194 σχόλια σήμερα</span></div>
